@@ -1,0 +1,10 @@
+.sideBar {
+  height: 100vh;
+  background-color: "red";
+}
+
+.body1 {
+  height: "5vh";
+  margin: 10;
+  background: "red";
+}

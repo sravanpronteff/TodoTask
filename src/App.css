@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.sideBar {
+  height: 100vh;
+  background-color: "#dadada";
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +16,24 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.sideBar {
+  height: 100vh;
+  background-color: "red";
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.body1 {
+  height: "5vh";
+  margin: 10;
+  background: "red";
 }
 
 .App-header {
